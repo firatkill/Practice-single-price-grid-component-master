@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+.container {
+  margin-top: 2rem;
+  padding: 0;
+  width: 75%;
+}
+
+#colsep,
+#rowsep {
+  border: none;
+}
+#colsep {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 3px 20px black;
+  padding: 0;
+}
+
+#top {
+  padding: 3rem;
+}
+#bottomleft {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 3rem;
+}
+#bottomright {
+  background-color: hsl(179, 62%, 43%);
+  opacity: 0.8;
+  padding: 3rem;
+}
+#top h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  padding-bottom: 1rem;
+  opacity: 0.9;
+}
+#top h2 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.85rem;
+}
+#top p {
+  padding-top: 0.3rem;
+  opacity: 0.6;
+  font-weight: 700;
+  color: hsl(218, 22%, 67%);
+}
+
+#bottomleft h3 {
+  font-size: 1.5rem;
+}
+
+#bottomleft #price {
+  font-size: 3.5rem;
+  padding-right: 1rem;
+}
+#bottomleft div {
+  display: flex;
+  align-items: center;
+}
+#bottomleft #permonth {
+  opacity: 0.7;
+}
+#bottomleft p {
+  opacity: 0.8;
+  font-size: 1.1rem;
+}
+#bottomleft button {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+#bottomright {
+  color: white;
+}
+#bottomright h3 {
+  padding-bottom: 1rem;
+  opacity: 0.9;
+}
+#bottomright p {
+  opacity: 0.7;
+}
